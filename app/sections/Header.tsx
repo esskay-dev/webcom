@@ -1,7 +1,7 @@
 import { ArrowRight, MenuIcon } from "lucide-react";
 import Image from "next/image";
 
-const logoUrl = ""; // replace with your real logo path, e.g. "/logo.svg"
+const logoUrl = "";
 
 export default function Header() {
   return (
@@ -21,7 +21,7 @@ export default function Header() {
             {logoUrl ? (
               <Image src={logoUrl} alt="My Logo" height={40} width={40} />
             ) : (
-              <div className="h-10 w-10" /> // placeholder spacer until you have a logo
+              <div className="h-10 w-10" />
             )}
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
