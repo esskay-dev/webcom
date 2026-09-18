@@ -1,7 +1,5 @@
 # Webcom
 
-## About
-
 Webcom is a personal showcase of the UI components I like and use most, built with React, TypeScript, Next.js, Tailwind CSS, and interactive animations.
 
 ## Getting Started
