@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Webcom
+
+## About
+
+Webcom is a personal showcase of the UI components I like and use most, built with React, TypeScript, Next.js, Tailwind CSS, and interactive animations.
 
 ## Getting Started
 
