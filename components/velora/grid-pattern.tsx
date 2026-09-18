@@ -82,7 +82,7 @@ export function DotPattern({
   height = 20,
   cx = 1,
   cy = 1,
-  cr = 0.25,
+  cr = 0.8,
   className,
   ...props
 }: DotPatternProps) {

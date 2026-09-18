@@ -8,7 +8,7 @@ import useClickOutside from "@/components/motion-primitives/useClickOutside";
 import { Folder, MessageCircle, User, WalletCards } from "lucide-react";
 
 const transition = {
-  type: "spring",
+  type: "spring" as const,
   bounce: 0.1,
   duration: 0.25,
 };
@@ -122,14 +122,14 @@ export default function ToolbarExpandable() {
 
   return (
     <section>
-      <div className="container">
-        <div className="flex items-center justify-between gap-6 mt-6">
+      <div className="container desc mt-10">
+        <div className="content">
           <div>
-            <div className="text-xl font-bold tracking-tighter text-black mt-6">
+            <div className="text-xl font-bold tracking-tighter text-white mt-6">
               <h3>Toolbar Expandable</h3>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-6 text-white">
               <p>
                 The count slides up into the corner as it pops open,
                 <br />
@@ -138,7 +138,7 @@ export default function ToolbarExpandable() {
               </p>
             </div>
 
-            <nav className="mt-6">
+            <nav className="mt-6 text-white">
               <div className="flex items-center gap-2">
                 <p className="border px-2 py-0.5 rounded-sm tracking-tight">
                   react
@@ -155,10 +155,10 @@ export default function ToolbarExpandable() {
             </nav>
           </div>
 
-          <div className="relative flex h-100 w-[500px] shrink-0 items-center justify-center rounded-lg border border-white/20 bg-black/90 h-100 px-8 py-3">
+          <div className="stage-box">
             <MotionConfig transition={transition}>
               <div ref={ref} className="">
-                <div className="w-full rounded-xl border border-zinc-950/50 bg-blue shadow-lg">
+                <div className="w-full rounded-xl border border-white/30 bg-black shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
                   <div className="overflow-hidden">
                     <AnimatePresence initial={false} mode="sync">
                       {isOpen ? (

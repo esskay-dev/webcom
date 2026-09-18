@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 backdrop-blur-sm">
       <div className="flex justify-center items-center py-3 bg-black text-white gap-3">
-        <p className="text-white/60 hidden md:block">
+        <p className="text-white/60 hidden md:block ">
           Interface components I’ve seen, liked, and rebuilt.
         </p>
         <div className="inline-flex gap-1 items-center">
@@ -23,8 +23,8 @@ export default function Header() {
             ) : (
               <div className="h-10 w-10" />
             )}
-            <MenuIcon className="h-5 w-5 md:hidden" />
-            <nav className="hidden md:flex gap-6 text-black/60 items-center">
+            <MenuIcon className="h-5 w-5 text-white md:hidden" />
+            <nav className="hidden md:flex gap-6 text-white/60 items-center">
               <a href="">Text Loop</a>
               <a href="#">Gooey Menu</a>
               <a href="#">Spring Drag</a>
