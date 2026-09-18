@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import { Highlighter } from "@/components/ui/highlighter";
 
 export default function Hero() {
   return (
