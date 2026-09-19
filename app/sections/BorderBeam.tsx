@@ -92,7 +92,7 @@ export default function BorderBeam() {
           </nav>
         </div>
         <div className="stage-box">
-          <BorderBeam />
+          <Component />
         </div>
       </div>
     </div>

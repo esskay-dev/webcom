@@ -5,6 +5,7 @@ import TextLoop from "./sections/TextLoop";
 import ToolbarExpandable from "./sections/ToolbarExpandable";
 import { GridPattern, DotPattern } from "@/components/velora/grid-pattern";
 import BorderBeam from "./sections/BorderBeam";
+import SignOut from "./sections/SignOut";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ToolbarExpandable />
       <IconCloud />
       <BorderBeam />
+      <SignOut />
     </main>
   );
 }
