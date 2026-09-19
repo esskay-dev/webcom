@@ -35,8 +35,8 @@ export default function SignOut() {
         <div className="stage-box">
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <Avatar className="cursor-pointer">
-                <AvatarImage src="/win.jpg" alt="Account" />
+              <Avatar className="size-12 cursor-pointer">
+                <AvatarImage className="" src="/win.jpg" alt="Account" />
               </Avatar>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="border border-white, bg-white">
